@@ -25,6 +25,12 @@ public class Scene1 : SSController
         SSSceneManager.Instance.Screen("Navmesh");
         Debug.Log("OnPopupOkButtonTap2 ===");
         Debug.Log("OnPopupOkButtonTap");
+       
+        Debug.Log("OnPopupOkButtonTap3 ====");
+        Debug.Log("OnPopupOkButtonTap4 ==== test conflict 3");
+
+        Debug.Log("commit master ");
+
     }
 
 }
