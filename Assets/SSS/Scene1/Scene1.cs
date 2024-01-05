@@ -31,6 +31,8 @@ public class Scene1 : SSController
         Debug.Log("OnPopupOkButtonTap3 ====");
         Debug.Log("OnPopupOkButtonTap4 ==== test conflict 3");
 
+        Debug.Log("commit master ");
+
     }
 
 }
