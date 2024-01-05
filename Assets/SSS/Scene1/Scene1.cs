@@ -24,6 +24,7 @@ public class Scene1 : SSController
     {
         SSSceneManager.Instance.Screen("Navmesh");
         Debug.Log("OnPopupOkButtonTap2 ===");
+        Debug.Log("OnPopupOkButtonTap");
     }
 
 }
