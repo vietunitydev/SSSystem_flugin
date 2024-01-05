@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Scene1 : SSController
 {
+    int scene1 = 2;
     public void OnPopupButtonClick()
     {
         SSSceneManager.Instance.PopUp("Popup", "Nav Mesh",
