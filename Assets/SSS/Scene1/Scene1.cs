@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Scene1 : SSController
 {
-    int scene1 = 3;
     public void OnPopupButtonClick()
     {
         SSSceneManager.Instance.PopUp("Popup", "Nav Mesh",
@@ -29,6 +28,8 @@ public class Scene1 : SSController
         Debug.Log("OnPopupOkButtonTap3 ====");
         Debug.Log("OnPopupOkButtonTap4 ==== test conflict 3");
 
+        Debug.Log("commit master ");
+        Debug.Log("commit master ");
         Debug.Log("commit master ");
 
     }
